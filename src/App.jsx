@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Home from './Pages/HOme';
+import Home from './Pages/Home';
 import Loading from './components/Loading';
 import { fetchNews } from './services/gnewsApi';
 import './App.css';
